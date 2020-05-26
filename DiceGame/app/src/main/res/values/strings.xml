@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Dice Game</string>
+    <string name="textview">Home</string>
+    <string name="rules_header">Правила</string>
+    <string name="rules_text">Вы играете против ИИ. Каждый игрок бросает по два кубика. Если выпадает дубль, то игрок делает еще бросок. Ход заканчивается, когда выпадет НЕ дубль. Первый игрок, набравший 100 или более очков побеждает. Если игроки одновременно заработают по 100 очков, то это ничья.</string>
+    <string name="button_start">Начать игру</string>
+    <string name="player_name">Игрок</string>
+    <string name="player_score">100</string>
+    <string name="pl_dice_1">pl_dice</string>
+    <string name="pl_dice_2">pl_dice</string>
+    <string name="ai_name">Компьютер</string>
+    <string name="ai_score">100</string>
+    <string name="ai_dice_1">ai_dice</string>
+    <string name="ai_dice_2">ai_dice</string>
+    <string name="button_round">Новый раунд</string>
+    <string name="round_num">Раунд 0</string>
+    <string name="log_line" />
+    <string name="res_text">Ничья</string>
+    <string name="btn_menu">В меню</string>
+    <string name="btn_newg">Новая игра</string>
+</resources>
