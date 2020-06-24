@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/note_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"
+        android:ems="12"
+        android:hint="@string/text_edit"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:minLines="1"
+        android:gravity="top|start"
+        android:maxLines="4"
+        android:scrollbars="vertical"
+        android:autofillHints="" />
+
+    <RadioGroup
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/note_yellow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/yellow"
+                android:text="@string/color_yellow" />
+
+            <RadioButton
+                android:id="@+id/note_green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/green"
+                android:text="@string/color_green" />
+
+            <RadioButton
+                android:id="@+id/note_red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/red"
+                android:text="@string/color_red" />
+
+            <RadioButton
+                android:id="@+id/note_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:text="@string/color_blue" />
+
+            <RadioButton
+                android:id="@+id/note_magenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/magenta"
+                android:text="@string/color_magenta" />
+
+            <RadioButton
+                android:id="@+id/note_cyan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cyan"
+                android:text="@string/color_cyan" />
+
+            <RadioButton
+                android:id="@+id/note_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lightgray"
+                android:text="@string/color_lightgray" />
+
+
+            <RadioButton
+                android:id="@+id/note_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/darkgray"
+                android:textColor="@color/lightgray"
+                android:text="@string/color_darkgray" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/note_save" />
+
+</LinearLayout>
